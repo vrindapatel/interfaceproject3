@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hangman</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+
+
+    <div class="game">
+      <h1>Hangman</h1>
+      <img id="hangman" src="images/hangman1.jpg">
+
+  
+      <div class="keyboard">
+        <div id="guess" class="guess"></div>
+
+        <table>
+        <button onclick="wrongLetter()" id="Q">
+          Q
+        </button>
+        <button onclick="wrongLetter()" id="W">
+          W
+        </button>
+        <button onclick="rightLetter()" id="E">
+          E
+        </button>
+        <button onclick="wrongLetter()" id="R">
+          R
+        </button>
+        <button onclick="wrongLetter()" id="T">
+          T
+        </button>
+        <button onclick="rightLetter()" id="Y">
+          Y
+        </button>
+        <button onclick="wrongLetter()" id="U">
+          U
+        </button>
+        <button onclick="wrongLetter()" id="I">
+          I
+        </button>
+        <button onclick="rightLetter()" id="O">
+          O
+        </button>
+        <button onclick="rightLetter()" id="P">
+          P
+        </button>
+      </table>
+      <table>
+        <button onclick="wrongLetter()" id="A">
+          A
+        </button>
+        <button onclick="wrongLetter()" id="S">
+          S
+        </button>
+        <button onclick="wrongLetter()" id="D">
+          D
+        </button>
+        <button onclick="wrongLetter()" id="F">
+          F
+        </button>
+        <button onclick="wrongLetter()" id="G">
+          G
+        </button>
+        <button onclick="rightLetter()" id="H">
+          H
+        </button>
+        <button onclick="wrongLetter()" id="J">
+          J
+        </button>
+        <button onclick="wrongLetter()" id="K">
+          K
+        </button>
+        <button onclick="rightLetter()" id="L">
+          L
+        </button>
+      </table>
+      <table>
+        <button onclick="wrongLetter()" id="Z">
+          Z
+        </button>
+        <button onclick="rightLetter()" id="X">
+          X
+        </button>
+        <button onclick="wrongLetter()" id="C">
+          C
+        </button>
+        <button onclick="wrongLetter()" id="V">
+          V
+        </button>
+        <button onclick="wrongLetter()" id="B">
+          B
+        </button>
+        <button onclick="rightLetter()" id="N">
+          N
+        </button>
+        <button onclick="wrongLetter()" id="M">
+          M
+        </button>
+      </table>
+      </div>
+      <br>
+
+      <button onclick="playAgain()">Play Again</button>
+      <button onclick="reset()">Reset</button>
+  </div>
+  </body>
+</html>
